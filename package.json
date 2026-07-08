@@ -1,0 +1,7 @@
+{
+  "name": "miraculous-website-html",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'Building static website...'"
+  }
+}
