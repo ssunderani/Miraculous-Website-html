@@ -2,6 +2,6 @@
   "name": "miraculous-website-html",
   "version": "1.0.0",
   "scripts": {
-    "build": "mkdir -p dist build && cp index.html style.css script.js dist/ && cp -r assets dist/ && cp index.html style.css script.js build/ && cp -r assets build/"
+    "build": "mkdir -p dist build && cp index.html style.css script.js index.js dist/ && cp -r assets dist/ && cp index.html style.css script.js index.js build/ && cp -r assets build/"
   }
 }
