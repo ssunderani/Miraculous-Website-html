@@ -2,6 +2,6 @@
   "name": "miraculous-website-html",
   "version": "1.0.0",
   "scripts": {
-    "build": "echo 'Building static website...'"
+    "build": "mkdir -p dist build && cp index.html style.css script.js dist/ && cp -r assets dist/ && cp index.html style.css script.js build/ && cp -r assets build/"
   }
 }
