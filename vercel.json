@@ -1,0 +1,5 @@
+{
+  "cleanUrls": true,
+  "buildCommand": "mkdir -p dist && cp index.html style.css script.js dist/ && cp -r assets dist/",
+  "outputDirectory": "dist"
+}
