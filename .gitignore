@@ -1,4 +1,8 @@
 node_modules/
 .DS_Store
 Thumbs.db
+package.json
+package-lock.json
 server.js
+index.js
+vercel.json
