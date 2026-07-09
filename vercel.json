@@ -1,11 +1,5 @@
 {
   "cleanUrls": true,
   "buildCommand": "mkdir -p dist && cp index.html style.css script.js index.js dist/ && cp -r assets dist/",
-  "outputDirectory": "dist",
-  "routes": [
-    { "src": "/style.css", "dest": "/style.css" },
-    { "src": "/script.js", "dest": "/script.js" },
-    { "src": "/assets/(.*)", "dest": "/assets/$1" },
-    { "src": "/(.*)", "dest": "/index.html" }
-  ]
+  "outputDirectory": "dist"
 }
